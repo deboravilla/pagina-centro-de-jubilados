@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/97a81a1a4f.js" crossorigin="anonymous"></script>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+	<link rel="stylesheet" type="text/css" href="mapayformulario.css">
+	<meta name="viewport" content="width=device-width , initial-scale=1" >
+	<title>Pagina contacto</title>
+</head>
+<body>
+
+	<header>
+		<div id="marca"> <img id="marca" src="img/logo.png"></div>
+		<nav id="botonera_principal">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="nosotros.html">Nosotros</a></li>
+				<li><a href="talleres.html">Talleres</a></li>
+				<li><a href="viajes.html">Viajes</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		</header>	
+	
+	<h1>Contacto </h1>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14210.941986066162!2d-65.2296772!3d-27.0700958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf815f39aae4e821a!2sCentro%20de%20jubilados%20Ingenio%20Leales!5e0!3m2!1ses-419!2sar!4v1600308409807!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+	<div class="formulario">
+			<h4 class="formu-ti">Formulario de Contacto</h4>
+			<form action="enviar.php" method="post">
+				<input type="text" name="nombre" placeholder="Nombre" class="caja-1">
+				<input type="email" name="email" placeholder="E-mail" class="caja-1" required>
+				<input type="tel" name="telefono" placeholder="Telefono" class="caja-1" required>
+				<input type="text" name="asunto" placeholder="Asunto" class="caja-1">
+				<textarea name="mensaje" id="" cols="30" rows="10" placeholder="Comentarios" class="caja-2"></textarea>
+				<button type="submit" class="correr">Enviar</button>
+			</form>
+		</div>
+	<footer>
+            <div id="datos">
+                <p>Av. Saenz Peña 970 - ING. LEALES - TUCUMÁN</p>
+                <p>Tel: 3863 - 490000</p>
+                
+            </div>
+    <nav id="redes">
+                <p>Redes sociales: 
+                    <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a> </p>
+    </nav>
+    </footer>
+			
+</body>
+
+</html>

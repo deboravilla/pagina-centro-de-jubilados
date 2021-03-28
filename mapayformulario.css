@@ -1,0 +1,235 @@
+body {
+	font-family: 'Alegreya Sans'; 
+	background-color: #132743;
+    color: white;
+}
+
+header{
+	width: 960px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	p{
+	font-size: 14px;
+	}
+
+	@keyframes anim1 {  
+		from { transform: scaleX(1) rotate(-15deg) ;-o-transform: scaleX(1) rotate(-15deg) ; }
+		to { transform: scaleX(-1) rotate(15deg);  -o-transform: scaleX(-1) rotate(15deg);}
+	 }
+	 @-webkit-keyframes anim1 {  
+		from { -webkit-transform: scaleX(1) rotate(-15deg) ; }
+		to { -webkit-transform: scaleX(-1) rotate(15deg);  }
+	 }
+	
+	#marca{
+	width: 220px;
+	height: 70px;
+	float: left;  
+	animation: anim1 5s;
+	-webkit-animation: anim1 5s; 
+	}
+	
+	#botonera_principal{
+	width: 400px;
+	height: 40px;
+	float: right;     
+	margin-top: 20px; 
+	}
+	
+	
+	#botonera_principal ul{
+		margin:0;
+		padding: 0;
+		list-style-type: none;
+		float: right;  
+	}
+	
+	#botonera_principal ul li{
+		display: inline;  
+	}
+	
+	#botonera_principal ul li a{
+		display: inline-block;
+		padding: 10px;
+		background-color: #ffcbcb;
+		color: #132743;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	nav ul li a:hover{
+	color:#000; 
+	background-color: red;   
+	}
+	
+	
+
+.dos-columnas{
+	margin-top: 50px;
+}
+.datos{
+	float: left;
+	width: 25%;
+	margin: auto;
+	color: white;
+}
+.formulario{
+	float: left;
+	width: 50%;
+	margin: auto;
+	color: white;
+}
+.caja-1{
+	width: 250px;
+	height: 40px;
+	margin: 20px 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+.caja-2{
+	width: 545px;
+	height: 100px;
+	margin: 20px 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+.correr{
+	margin: 20px 20px;
+	padding: 10px;
+}
+.formu-ti{
+	margin: 0px 20px;
+	color: white;
+}
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+}
+.datos-contacto li{
+	color: #444;
+	padding-bottom: 5px;
+}
+.datos-contacto li i{
+	color: #85c34a;
+	font-size: 60px;
+}
+.limpia{
+	clear: both;
+}
+
+
+footer{
+    width: 960px;
+    height: 180px;
+    background-color: #407088;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #FFFFFF
+    }
+    
+#datos{
+width: 300px;
+height: 180px;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+    }
+    
+#redes{
+width: 350px;
+height: 45px;
+background-color: #ffcbcb;
+color:  black;
+font-weight: bold;
+font-size: 14 px;
+float: right;
+    }
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px){
+
+		header{
+		width: 580px;
+		height: 140px;
+		}
+		
+		
+		p{
+		font-size: 12px;
+		}
+		
+		#marca{ 
+		margin-left: auto;
+		margin-right: auto;
+		float: none; 
+		}
+		
+		
+		#botonera_principal{
+		width: 400px;
+		height: 40px;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: 10px; 
+		}
+		
+		
+		} 
+		
+		@media all and (max-width: 599px){
+		
+		header{
+		width: 90%;
+		height: auto; 
+		}
+		
+		p{
+		font-size: 10px;
+		}
+		
+		#marca{
+		width: 100%;
+		height: auto;
+		float: none; 
+		padding: 10px;
+		box-sizing: border-box;
+		text-align: center;
+		}
+		
+		nav{
+		width: 100%;
+		height: auto;
+		}
+		
+		#botonera_principal{ 
+		height: auto;
+		float: none; 
+		margin-top: 20px;
+		}
+		
+		#botonera_principal ul{
+		float: none; 
+		}
+		
+		#botonera_principal ul li{
+		display: block; 
+		}
+		
+		#botonera_principal ul li a{
+		
+		width: 100%;
+		box-sizing: border-box;
+		text-align: center;
+		margin-bottom: 5px; 
+		display: block;
+		}
+
+
+		
+		}
