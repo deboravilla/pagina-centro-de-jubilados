@@ -2,4 +2,4 @@
 
 Proyecto desarrollado en el curso de Programacion Full Stack.
 
-[Visita la página] (https://centrojubiladosingleales.netlify.app/)
+[Visita la página](https://centrojubiladosingleales.netlify.app/)
